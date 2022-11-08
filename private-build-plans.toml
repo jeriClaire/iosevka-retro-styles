@@ -1,0 +1,411 @@
+[buildPlans.iosevka-topaz]
+family = "Iosevka Topaz"
+spacing = "normal"
+serifs = "sans"
+no-cv-ss = true
+
+  [buildPlans.iosevka-topaz.variants]
+  inherits = "ss13"
+
+    [buildPlans.iosevka-topaz.variants.design]
+    capital-a = "curly-serifless"
+    capital-g = "toothed-serifless-hooked"
+    capital-i = "short-serifed"
+    capital-j = "serifless"
+    capital-q = "crossing"
+    capital-v = "curly"
+    capital-w = "straight-vertical-sides"
+    capital-z = "curly-serifless"
+    a = "double-storey-toothless-corner"
+    b = "toothless-corner"
+    d = "toothless-corner-serifless"
+    e = "flat-crossbar"
+    f = "flat-hook"
+    g = "earless-corner"
+    h = "straight"
+    i = "flat-tailed"
+    j = "flat-hook-serifless"
+    k = "symmetric-touching-serifless"
+    l = "flat-tailed"
+    m = "earless-corner-double-arch-short-leg"
+    n = "earless-corner-straight"
+    p = "earless-corner"
+    q = "earless-corner"
+    r = "earless-corner"
+    t = "flat-hook"
+    u = "toothless-corner"
+    v = "curly"
+    w = "curly"
+    y = "curly"
+    eszet = "sulzbacher-descending"
+    turn-v = "curly"
+    lower-alpha = "crossing"
+    lower-lambda = "curly"
+    lower-mu = "tailless"
+    cyrl-capital-ze = "serifless"
+    cyrl-capital-ka = "symmetric-touching-serifless"
+    cyrl-ka = "symmetric-touching-serifless"
+    cyrl-el = "straight"
+    cyrl-ef = "serifless"
+    cyrl-capital-u = "curly"
+    cyrl-capital-ya = "standing"
+    cyrl-ya = "standing"
+    cyrl-yeri = "corner"
+    zero = "slashed"
+    one = "no-base-long-top-serif"
+    two = "straight-neck"
+    four = "closed"
+    five = "vertical-upper-left-bar"
+    six = "open-contour"
+    seven = "curly-serifless"
+    eight = "crossing-asymmetric"
+    nine = "open-contour"
+    tilde = "high"
+    asterisk = "turn-hex-low"
+    underscore = "high"
+    caret = "medium"
+    paren = "flat-arc"
+    brace = "straight"
+    number-sign = "upright-tall"
+    ampersand = "closed"
+    at = "threefold-tall"
+    dollar = "open-cap"
+    cent = "through"
+    percent = "rings-continuous-slash"
+    bar = "natural-slope"
+    ascii-single-quote = "raised-comma"
+    ascii-grave = "raised-inverse-comma"
+    question = "smooth"
+    punctuation-dot = "square"
+
+  [buildPlans.iosevka-topaz.ligations]
+  inherits = "clike"
+
+[buildPlans.iosevka-topaz.weights.light]
+shape = 300
+menu = 300
+css = 300
+
+[buildPlans.iosevka-topaz.weights.regular]
+shape = 400
+menu = 400
+css = 400
+
+[buildPlans.iosevka-topaz.weights.medium]
+shape = 500
+menu = 500
+css = 500
+
+[buildPlans.iosevka-topaz.weights.semibold]
+shape = 600
+menu = 600
+css = 600
+
+[buildPlans.iosevka-topaz.weights.extrabold]
+shape = 800
+menu = 800
+css = 800
+
+[buildPlans.iosevka-topaz.slopes.upright]
+angle = 0
+shape = "upright"
+menu = "upright"
+css = "normal"
+
+[buildPlans.iosevka-topaz.slopes.italic]
+angle = 9.4
+shape = "italic"
+menu = "italic"
+css = "italic"
+
+[buildPlans.iosevka-c128-vdc]
+family = "Iosevka C128"
+spacing = "normal"
+serifs = "sans"
+no-cv-ss = true
+
+  [buildPlans.iosevka-c128-vdc.variants]
+  inherits = "ss13"
+  spacing = "fixed"
+  no-ligation = true
+
+    [buildPlans.iosevka-c128-vdc.variants.design]
+    capital-a = "curly-serifless"
+    capital-b = "standard-serifless"
+    capital-c = "serifless"
+    capital-d = "more-rounded-serifless"
+    capital-e = "serifless"
+    capital-f = "serifless"
+    capital-g = "toothless-rounded-serifless-hooked"
+    capital-h = "serifless"
+    capital-i = "short-serifed"
+    capital-j = "serifed-symmetric"
+    capital-k = "symmetric-touching-serifless"
+    capital-l = "serifless"
+    capital-m = "hanging"
+    capital-n = "asymmetric"
+    capital-p = "closed"
+    capital-q = "horizontal-tailed"
+    capital-r = "straight"
+    capital-s = "serifless"
+    capital-t = "serifless"
+    capital-u = "toothless-rounded"
+    capital-v = "curly"
+    capital-w = "straight-vertical-sides"
+    capital-x = "curly-serifless"
+    capital-y = "curly-serifless"
+    capital-z = "straight-serifless"
+    a = "double-storey-toothless-corner"
+    b = "toothless-corner"
+    c = "serifless"
+    d = "toothless-corner-serifless"
+    e = "flat-crossbar"
+    f = "serifless"
+    g = "single-storey-earless-corner-flat-hook"
+    h = "straight"
+    i = "serifless"
+    j = "serifless"
+    k = "symmetric-touching-serifless"
+    l = "serifed"
+    m = "earless-corner-double-arch-short-leg"
+    n = "earless-corner-straight"
+    p = "earless-corner"
+    q = "earless-corner"
+    r = "earless-corner"
+    s = "serifless"
+    t = "standard"
+    u = "toothless-rounded"
+    v = "curly"
+    w = "curly"
+    x = "straight-serifless"
+    y = "cursive-flat-hook"
+    z = "straight-serifless"
+    long-s = "bent-hook"
+    eszet = "sulzbacher"
+    turn-v = "curly"
+    lower-alpha = "tailed-barred"
+    lower-lambda = "curly"
+    lower-delta = "rounded"
+    capital-gamma = "serifless"
+    lower-iota = "zshaped"
+    lower-mu = "tailless"
+    lower-xi = "rounded"
+    cyrl-capital-zhe = "curly"
+    cyrl-zhe = "symmetric-touching"
+    cyrl-capital-ze = "serifless"
+    cyrl-ze = "serifless"
+    cyrl-capital-ka = "symmetric-touching-serifless"
+    cyrl-ka = "symmetric-touching-serifless"
+    cyrl-el = "straight"
+    cyrl-ef = "serifless"
+    cyrl-en = "serifless"
+    cyrl-che = "standard"
+    cyrl-capital-u = "cursive-flat-hook"
+    cyrl-capital-ya = "straight"
+    cyrl-ya = "straight"
+    cyrl-yeri = "corner"
+    zero = "slashed"
+    one = "base-flat-top-serif"
+    two = "curly-neck"
+    three = "two-arcs"
+    four = "closed"
+    five = "vertical-upper-left-bar"
+    six = "closed-contour"
+    seven = "bend-serifed"
+    eight = "two-circles"
+    nine = "closed-contour"
+    tilde = "high"
+    asterisk = "turn-hex-low"
+    underscore = "high"
+    caret = "medium"
+    paren = "large-contour"
+    brace = "straight"
+    number-sign = "upright"
+    ampersand = "closed"
+    at = "threefold-tall"
+    dollar = "open-cap"
+    cent = "open"
+    percent = "dots"
+    bar = "force-upright"
+    ascii-single-quote = "raised-comma"
+    lig-ltgteq = "flat"
+    ascii-grave = "raised-inverse-comma"
+    question = "smooth"
+    punctuation-dot = "square"
+    diacritic-dot = "square"
+    lig-neq = "slightly-slanted"
+    lig-equal-chain = "without-notch"
+
+
+[buildPlans.iosevka-c128-vdc.metric-override]
+leading = 1150
+sb = 80
+dotSize = 100
+winMetricAscenderPad = 0
+winMetricDescenderPad = 0
+powerlineScaleY = 1
+powerlineScaleX = 1
+powerlineShiftY = 0
+powerlineShiftX = 0
+
+[buildPlans.iosevka-c128-vdc.widths.normal]
+shape = 500        # Unit Width, measured in 1/1000 em.
+menu  = 5          # Width grade for the font"s names.
+css   = "normal"   # "font-stretch" property of webfont CSS.
+
+[buildPlans.iosevka-c128-vdc.weights.regular]
+shape = 600
+menu = 400
+css = 400
+
+[buildPlans.iosevka-c128-vdc.slopes.upright]
+angle = 0
+shape = "upright"
+menu = "upright"
+css = "normal"
+
+[buildPlans.iosevka-c128-vic]
+family = "Iosevka C128 VIC"
+spacing = "normal"
+serifs = "sans"
+no-cv-ss = true
+
+  [buildPlans.iosevka-c128-vic.variants]
+  inherits = "ss13"
+  spacing = "fixed"
+  no-ligation = true
+
+    [buildPlans.iosevka-c128-vic.variants.design]
+    capital-a = "curly-serifless"
+    capital-b = "standard-serifless"
+    capital-c = "serifless"
+    capital-d = "more-rounded-serifless"
+    capital-e = "serifless"
+    capital-f = "serifless"
+    capital-g = "toothless-rounded-serifless-hooked"
+    capital-h = "serifless"
+    capital-i = "short-serifed"
+    capital-j = "serifed-symmetric"
+    capital-k = "symmetric-touching-serifless"
+    capital-l = "serifless"
+    capital-m = "hanging"
+    capital-n = "asymmetric"
+    capital-p = "closed"
+    capital-q = "horizontal-tailed"
+    capital-r = "straight"
+    capital-s = "serifless"
+    capital-t = "serifless"
+    capital-u = "toothless-rounded"
+    capital-v = "curly"
+    capital-w = "straight-vertical-sides"
+    capital-x = "curly-serifless"
+    capital-y = "curly-serifless"
+    capital-z = "straight-serifless"
+    a = "double-storey-toothless-corner"
+    b = "toothless-corner"
+    c = "serifless"
+    d = "toothless-corner-serifless"
+    e = "flat-crossbar"
+    f = "serifless"
+    g = "single-storey-earless-corner-flat-hook"
+    h = "straight"
+    i = "serifless"
+    j = "serifless"
+    k = "symmetric-touching-serifless"
+    l = "serifed"
+    m = "earless-corner-double-arch-short-leg"
+    n = "earless-corner-straight"
+    p = "earless-corner"
+    q = "earless-corner"
+    r = "earless-corner"
+    s = "serifless"
+    t = "standard"
+    u = "toothless-rounded"
+    v = "curly"
+    w = "curly"
+    x = "straight-serifless"
+    y = "cursive-flat-hook"
+    z = "straight-serifless"
+    long-s = "bent-hook"
+    eszet = "sulzbacher"
+    turn-v = "curly"
+    lower-alpha = "tailed-barred"
+    lower-lambda = "curly"
+    lower-delta = "rounded"
+    capital-gamma = "serifless"
+    lower-iota = "zshaped"
+    lower-mu = "tailless"
+    lower-xi = "rounded"
+    cyrl-capital-zhe = "curly"
+    cyrl-zhe = "symmetric-touching"
+    cyrl-capital-ze = "serifless"
+    cyrl-ze = "serifless"
+    cyrl-capital-ka = "symmetric-touching-serifless"
+    cyrl-ka = "symmetric-touching-serifless"
+    cyrl-el = "straight"
+    cyrl-ef = "serifless"
+    cyrl-en = "serifless"
+    cyrl-che = "standard"
+    cyrl-capital-u = "cursive-flat-hook"
+    cyrl-capital-ya = "straight"
+    cyrl-ya = "straight"
+    cyrl-yeri = "corner"
+    zero = "slashed"
+    one = "base-flat-top-serif"
+    two = "curly-neck"
+    three = "two-arcs"
+    four = "closed"
+    five = "vertical-upper-left-bar"
+    six = "closed-contour"
+    seven = "bend-serifed"
+    eight = "two-circles"
+    nine = "closed-contour"
+    tilde = "high"
+    asterisk = "turn-hex-low"
+    underscore = "high"
+    caret = "medium"
+    paren = "large-contour"
+    brace = "straight"
+    number-sign = "upright"
+    ampersand = "closed"
+    at = "threefold-tall"
+    dollar = "open-cap"
+    cent = "open"
+    percent = "dots"
+    bar = "force-upright"
+    ascii-single-quote = "raised-comma"
+    lig-ltgteq = "flat"
+    ascii-grave = "raised-inverse-comma"
+    question = "smooth"
+    punctuation-dot = "square"
+    diacritic-dot = "square"
+    lig-neq = "slightly-slanted"
+    lig-equal-chain = "without-notch"
+
+[buildPlans.iosevka-c128-vic.metric-override]
+leading = 1150
+sb = 40
+dotSize = 150
+winMetricAscenderPad = 0
+winMetricDescenderPad = 0
+powerlineScaleY = 1
+powerlineScaleX = 1
+powerlineShiftY = 0
+powerlineShiftX = 0
+
+[buildPlans.iosevka-c128-vic.widths.normal]
+shape = 700        # Unit Width, measured in 1/1000 em.
+menu  = 8          # Width grade for the font"s names.
+css   = "expanded" # "font-stretch" property of webfont CSS.
+
+[buildPlans.iosevka-c128-vic.weights.extrabold]
+shape = 800
+menu = 800
+css = 800
+
+[buildPlans.iosevka-c128-vic.slopes.upright]
+angle = 0
+shape = "upright"
+menu = "upright"
+css = "normal"
+
